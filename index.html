@@ -5,26 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Remind Me!</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div>
+    <div id="heading">
         <h1>Use this website and never forget anything again</h1>
-        <h3>*well, you might do, but it won't be due to not being reminded &#128513;</h3>
-        <hr/>
+        <h2>*well, you might do, but it won't be due to not being reminded &#128513;</h2>
     </div>
-    <div>
+    <div id="middle">
         <form>
-            <label for="reminder">do you want to be reminded of? </label>> 
-            <input type="text"name="reminder" size="120"><br/>
-            <label for="date">When do you want to be reminded? </label>
-            <input type="datetime-local"name="whenToRemind"><br/>
+            <label for="reminder"> What do you want to be reminded of? </label> 
+            <input type="text"name="reminder"><br>
+            <label for="date"> When do you want to be reminded? </label>
+            <input type="datetime-local"name="whenToRemind">
             <button name="reminder" type="submit">Remind me!</button>
         </form>
     </div>
     <div>
-        <p>the table below shows how many tasks are left and when they're due</p>
+        <h3>the table below shows how many tasks are left and when they're due</h3>
     </div>
-    <div>
+    <div id="bottom">
         <table>
             <tr>
                 <th>Task Number</th>
@@ -39,6 +39,11 @@
                 <td><button name="delete" type="submit">delete</button></td>
             </tr>
         </table>
+    </div>
+    <div id="pic">
+        <!-- in future this should be an animation of a man holding up but then slowly being crushed
+        under the weigh of his tasks -->
+        <img src="docs/forgetful_man.jpg">
     </div>
 </body>
 </html>

@@ -1,0 +1,37 @@
+#heading {
+    border: 5px dotted whitesmoke;
+    text-align: center;
+    font-stretch: ultra-expanded;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* make background color dynamic in the future depending on tasks overdue */
+    background-color: green;
+}
+#middle {
+    /* make border color dynamic in the future depending on tasks overdue */
+    border: 5px dotted green;
+    font-stretch: expanded;
+    font-family: sans-serif;
+    background-color:whitesmoke;    
+}
+#bottom {
+    /* make background color dynamic in the future depending on tasks overdue */
+    border: 5px dotted green;
+    text-align: center;
+    font-stretch: expanded;
+    font-family: sans-serif;
+    background-color:whitesmoke;    
+}
+
+h3{
+    text-align: center;
+    font-stretch: extra-expanded;
+    background-color: blueviolet;
+    margin: 0px;
+}
+
+#pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

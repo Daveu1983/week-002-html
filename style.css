@@ -63,3 +63,60 @@ table{
     height: 100%;
 
 }
+
+@media only screen and (max-width:700px){
+    body{
+        background-color:red;
+    }
+    h1{
+        font-size: 100%
+    }
+}
+@media only screen and (max-width:600px){
+    body{
+        background-color: yellow;
+    }
+    h1{
+        font-size: 90%
+    }
+}
+@media only screen and (max-width:500px){
+    body{
+        background-color: green;
+    }
+    h1{
+        font-size: 80%
+    }
+}
+@media only screen and (max-width:400px){
+    body{
+        background-color: rgba(167, 204, 125, 0.452);
+    }
+    h1{
+        font-size: 70%
+    }
+}
+@media only screen and (max-width:300px){
+    body{
+        background-color: rgba(255, 166, 0, 0.315);
+    }
+    h1{
+        font-size: 60%
+    }
+}
+@media only screen and (max-width:200px){
+    body{
+        background-color:purple;
+    }
+    h1{
+        font-size: 50%
+    }
+}
+@media only screen and (max-width:100px){
+    body{
+        background-color: rgba(13, 17, 83, 0.548);
+    }
+    h1{
+        font-size: 40%
+    }
+}

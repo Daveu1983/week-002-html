@@ -1,21 +1,13 @@
 #heading {
-    border: 5px dotted whitesmoke;
     text-align: center;
     font-stretch: ultra-expanded;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* make background color dynamic in the future depending on tasks overdue */
-    background-color: green;
 }
 #middle {
     /* make border color dynamic in the future depending on tasks overdue */
-    border: 5px dotted green;
     font-stretch: expanded;
-    font-family: sans-serif;
-    background-color:yellow;    
-}
-#bottom {
-    /* make background color dynamic in the future depending on tasks overdue */
-    border: 5px dotted green;
+    font-family: sans-serif;   
 }
 
 #remindMe{
@@ -24,8 +16,6 @@
     margin-left: 30%;
     margin-right: 40%;
     border-radius: 8px;
-    border: 2px solid black;    
-    background-color: green;
     box-shadow: 2px 2px 2px 2px;
 }
 
@@ -53,9 +43,6 @@ input[type=datetime-local]{
 th, td{
     padding: 15px;
     text-align: left;
-    border-bottom: 2px double darkblue;
-    border-right: 2px double darkblue;
-    background-color: aqua;
     font-family: Arial, Helvetica, sans-serif;
 }
 table{
@@ -64,19 +51,3 @@ table{
 
 }
 
-@media only screen and (max-width:700px){
-    body{
-        background-color:red;
-    }
-    h1{
-        font-size: 100%
-    }
-}
-@media only screen and (max-width:600px){
-    body{
-        background-color: yellow;
-    }
-    h1{
-        font-size: 90%
-    }
-}

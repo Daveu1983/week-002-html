@@ -10,8 +10,8 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <div class="row">
+        <header> 
+            <div class="row  generalText">
                <div class="col-12">
                    <h1>Remind Me!</h1>
                 </div> 
@@ -21,24 +21,26 @@
                 <div class="col-12">
                     <h6>*well, you might do, but it won't be due to not being reminded</h6>
                 </div>
+            </div>
         </header>
-            <form class="form-row">
-                <div class="col-md-7">
-                    <input id="reminder" class="form-control" type="text"name="reminder" placeholder="What do you want to be reminded of? ">
+        <div class="row generalContent">
+            <form class="form-inline">
+                <div class="form-group md-6 center-block">
+                    <input id="reminder" class="form-control" type="text"name="reminder" 
+                    placeholder="What do you want to be reminded of? ">
                 </div>
-                <div class="col-md-3">
+                <div class="form-group md-4 center-block">
                     <input id="date" class="form-control" type="datetime-local"name="whenToRemind">
                 </div>
-                <div class="col-md-2">                
-                    <button id="remindMe" name="reminder" type="submit">Remind me!</button>
-                </div>
+                <button id="remindMe" name="reminder" type="submit">Remind me!</button>
             </form>
-            <div class="row">
+        </div>
+            <div class="row generalText">
                 <div class="col-12">
                     <p>You have 0 tasks, 0 due within the next 24hrs and 0 overdue </p>
                 </div>
             </div>
-        <div class="row">
+        <div class="row generalContent">
             <div class="col-md-4">example</div>
             <div class="col-md-3"> 12/11/2020 12:00</div>
             <div class="col-md-3"><button name="modify" type="submit">modify</button></div>

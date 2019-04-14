@@ -9,41 +9,41 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div id="heading">
-        <h1>Use this website and never forget anything again</h1>
-        <h2>*well, you might do, but it won't be due to not being reminded &#128513;</h2>
-    </div>
-    <div id="middle">
-        <form>
-            <label for="reminder"> What do you want to be reminded of? </label> 
-            <input id="reminder" type="text"name="reminder" placeholder="I want to be reminded of...">
-            <label for="date"> When do you want to be reminded? </label>
-            <input id="date" type="datetime-local"name="whenToRemind">
-            <button id="remindMe" name="reminder" type="submit">Remind me!</button>
-        </form>
-    </div>
-    <div id="bottom">
-        <table>
-            <tr>
-                <th>Task Number</th>
-                <th>Task Description</th>
-                <th>Due Date</th>
-                <th></th>
-                <th></th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>example</td>
-                <td> 12/11/2020 12:00</td>
-                <td><button name="modify" type="submit">modify</button></td>
-                <td><button name="delete" type="submit">delete</button></td>
-            </tr>
-        </table>
-    </div>
-    <div id="pic">
-        <!-- in future this should be an animation of a man holding up but then slowly being crushed
-        under the weigh of his tasks -->
-        <img src="docs/forgetful_man.jpg" alt="so many tasks!!!"
-    </div>
+    <div class="container">
+        <header>
+            <div class="row">
+               <div class="col-12">
+                   <h1>Remind Me!</h1>
+                </div> 
+                <div class="col-12">
+                    <h2>Use this website and never forget anything again</h2>
+                </div>
+                <div class="col-12">
+                    <h6>*well, you might do, but it won't be due to not being reminded</h6>
+                </div>
+        </header>
+            <form class="form-row">
+                <div class="col-7">
+                    <input id="reminder" class="form-control" type="text"name="reminder" placeholder="What do you want to be reminded of? ">
+                </div>
+                <div class="col-3">
+                    <input id="date" class="form-control" type="datetime-local"name="whenToRemind">
+                </div>
+                <div class="col-2">                
+                    <button id="remindMe" name="reminder" type="submit">Remind me!</button>
+                </div>
+            </form>
+            <div class="row">
+                <div class="col-12">
+                    <p>You have 0 tasks, 0 due within the next 24hrs and 0 overdue </p>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-3">example</div>
+            <div class="col-3"> 12/11/2020 12:00</div>
+            <div class="col-3"><button name="modify" type="submit">modify</button></div>
+            <div class="col-3"><button name="delete" type="submit">delete</button></div>
+        </div>
+</div>
 </body>
 </html>

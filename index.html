@@ -25,17 +25,17 @@
         </header>
         <div class="row generalContent">
             <form>
-                <div class="form-row">
-                    <div class="col-md-6">    
+                <div class="row">
+                    <div class="col-12">    
                         <label for="reminder" class="sr-only">remind me</label>
                         <input id="reminder" class="form-control" type="text"name="reminder" 
                         placeholder="What do you want to be reminded of? ">
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-12">
                         <label for="dateToRemind" class="sr-only">date</label>
                         <input id="dateToRemind" class="form-control" type="datetime-local"name="whenToRemind">
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-12">
                         <button id="remindMe" class="btn btn-secondary" 
                         name="reminder" type="submit">Remind me!</button>
                     </div>
@@ -50,8 +50,10 @@
         <div class="row generalContent">
             <div class="col-md-4 col-12">example</div>
             <div class="col-md-3 col-12"> 12/11/2020 12:00</div>
-            <div class="col-md-3 col-12"><button name="modify" type="submit">modify</button></div>
-            <div class="col-md-2 col-12"><button name="delete" type="submit">delete</button></div>
+            <div class="col-md-3 col-12"><button class="btn btn-secondary" name="modify" 
+                type="submit">modify</button></div>
+            <div class="col-md-2 col-12"><button class="btn btn-secondary" name="delete" 
+                type="submit">delete</button></div>
         </div>
         <footer>
             <div class="row generalText">
